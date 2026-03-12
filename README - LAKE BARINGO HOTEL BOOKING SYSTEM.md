@@ -96,7 +96,7 @@ After successful booking, customers can:
 ## 📁 Project Structure
 
 ```
-LAKE BARINGO HOTEL/
+BARINGO WONDERS SAFARI/
 ├── public/
 │   └── index.html
 ├── src/
@@ -188,6 +188,6 @@ npm start
 
 ---
 
-**🏨 Lake Baringo Hotel - Luxury Hospitality Meets Modern Technology**
+**🏨 Baringo Wonders Safari - Luxury Hospitality Meets Modern Technology**
 
 *Experience world-class service with cutting-edge booking technology*

@@ -19,11 +19,12 @@ const mimeTypes = {
 };
 
 const server = http.createServer((req, res) => {
-  let filePath = path.join(BUILD_DIR, req.url === '/' ? 'index.html' : req.url);
-  
+  const decodedUrl = decodeURIComponent(req.url);
+  let filePath = path.join(BUILD_DIR, decodedUrl === '/' ? 'index.html' : decodedUrl);
+
   const ext = path.extname(filePath);
   const contentType = mimeTypes[ext] || 'application/octet-stream';
-  
+
   fs.readFile(filePath, (err, content) => {
     if (err) {
       if (err.code === 'ENOENT') {

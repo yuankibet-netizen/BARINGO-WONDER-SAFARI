@@ -8,6 +8,11 @@
 - [x] Added booking API endpoints to server/index.js
 - [x] Added sendBookingConfirmation method to emailService.js
 - [x] Set up Supabase client (server/supabase.js)
+- [x] Rename project from "Lake Baringo Hotel" to "Baringo Wonders Safari"
+- [x] Update project name in all components
+- [x] Update project name in administrative documents
+- [x] Update support emails and links
+- [x] Update hardcoded brand strings
 
 ### Frontend Integration
 - [x] Created AdminDashboard component (src/components/AdminDashboard.tsx)
